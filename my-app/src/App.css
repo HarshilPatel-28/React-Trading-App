@@ -1,0 +1,22 @@
+.delete-button{
+    visibility: hidden;
+    display: inline-block;
+}
+.table-row:hover .delete-button{
+    visibility: visible;
+}
+.logo{
+    width: 250px;
+    height: 300px;
+    display: flex;
+
+    margin: 0 auto;
+   padding-top: 10px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
